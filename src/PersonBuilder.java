@@ -30,4 +30,14 @@ public class PersonBuilder {
     public Person build() {
         return new Person(firstName, lastName, age, address);
     }
+
+    @Override
+    public String toString() {
+        return "PersonBuilder{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }

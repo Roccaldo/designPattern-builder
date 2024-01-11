@@ -43,6 +43,10 @@ public class Person {
         this.address = address;
     }
 
+    public void showPerson() {
+        System.out.println("first name: " + firstName + " | " + " last name: " + lastName + " | age: " + age + " |  address: " + address);
+    }
+
     @Override
     public String toString() {
         return "Person{" +
